@@ -1,0 +1,138 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2817144400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "User should be able to verify six products are displayed on page",
+        "description": "",
+        "id": "product-test;user-should-be-able-to-verify-six-products-are-displayed-on-page",
+        "after": [
+          {
+            "result": {
+              "duration": 109000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 104478900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on homepage",
+            "match": {
+              "location": "LoginSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 107104800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter username \"standard_user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "standard_user",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginSteps.iEnterUsername(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 67376800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter password \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "secret_sauce",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginSteps.iEnterPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 98238000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on login button",
+            "match": {
+              "location": "LoginSteps.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should login successfully",
+            "match": {
+              "location": "LoginSteps.iShouldLoginSuccessfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 34714000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should be able to verify that six products are displayed on page",
+            "match": {
+              "location": "ProductSteps.iShouldBeAbleToVerifyThatSixProductsAreDisplayedOnPage()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Product Test",
+    "description": "As user I want to verify that six products are displayed on page",
+    "id": "product-test",
+    "keyword": "Feature",
+    "uri": "product.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@regression"
+      },
+      {
+        "line": 1,
+        "name": "@sanity"
+      }
+    ]
+  }
+]
